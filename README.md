@@ -13,26 +13,25 @@ This project generates a story inspired by the Mahabharata in a world governed b
 - Install dependencies: `pip install -r requirements.txt`
 - An OpenRouter API key
 
-## Setup
+## Setup to run
 1. Clone the repository:
    ```bash
    git clone https://github.com/<your-username>/mahabharata-automation.git
    cd mahabharata-automation
    
-#2. Create a virtual environment:
-
+2. Create a virtual environment:
+   ```
     python -m venv venv
 
     source venv/bin/activate      # Linux/macOS
 
     venv\Scripts\activate         # Windows
     
-   #3. Install dependencies:
-   
+3. Install dependencies:
+   ```
    pip install -r requirements.txt
    
-
-#4. Run the Project
-
+4. Run the Project
+  ```
    python run.py
 
