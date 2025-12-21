@@ -18,7 +18,7 @@ This project generates a story inspired by the Mahabharata in a world governed b
    ```bash
    git clone https://github.com/<your-username>/mahabharata-automation.git
    cd mahabharata-automation
-Create a virtual environment:
+2. Create a virtual environment:
 
 python -m venv venv
 
@@ -26,11 +26,11 @@ source venv/bin/activate      # Linux/macOS
 
 venv\Scripts\activate         # Windows
 
-Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
-Run the Project
+4. Run the Project
 
 python run.py
 
