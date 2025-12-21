@@ -22,9 +22,9 @@ Create a virtual environment:
 
 python -m venv venv
 
-source venv/bin/activate   # Linux/macOS
+source venv/bin/activate      # Linux/macOS
 
-venv\Scripts\activate      # Windows
+venv\Scripts\activate         # Windows
 
 Install dependencies:
 
@@ -32,22 +32,5 @@ pip install -r requirements.txt
 
 Run the Project
 
-python run.py --llm openrouter
+python run.py
 
-File Structure
-
-llm/
-
-prompts/
-
-common/
-
-run.py
-
-config.py
-
-.env         # local only
-
-requirements.txt
-
-README.md
